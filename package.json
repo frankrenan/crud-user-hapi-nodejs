@@ -1,0 +1,23 @@
+{
+   "name": "projeto-node-hapi",
+   "version": "1.0.0",
+   "main": "index.js",
+   "license": "MIT",
+   "scripts": {
+      "serve": "ts-node-dev src/app.ts",
+      "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
+   },
+   "dependencies": {
+      "@hapi/hapi": "^20.2.1",
+      "dotenv": "^11.0.0",
+      "mysql2": "^2.3.3",
+      "reflect-metadata": "^0.1.13",
+      "typeorm": "0.2.41"
+   },
+   "devDependencies": {
+      "@types/hapi__hapi": "^20.0.10",
+      "@types/node": "^8.0.29",
+      "ts-node-dev": "^1.1.8",
+      "typescript": "3.3.3333"
+   }
+}
